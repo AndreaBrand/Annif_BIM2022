@@ -1,2 +1,2 @@
 # Annif_BIM2022
-Projekt zur automatischen Erschließung von Abschlussarbeiten der TH Wildau
+Documentation of first test runs with annif commenced by Team A
