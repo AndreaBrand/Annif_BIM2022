@@ -22,6 +22,11 @@ Then load vocabulary
 annif load-vocab --language german rvkthwildau data-sets/THWildau/rvk_test2023v3.tsv
 ```
 rvkthwildau is the vocabulary ID; data-sets/THWildau/rvk_test2023v3.tsv is the path
+
 Attention: 
-don't forget to put options --langage in the string otherwise you will get error message
-if you run into error "getötet" or "killed" depending on OS language settings check TSV file if there are format errors in the file
+
+#) don't forget to put options --langage in the string otherwise you will get error message
+
+#) if you run into error "getötet" or "killed" depending on OS language settings check TSV file if there are format errors in the file
+
+Depending on TSV file load-vocab should not take to long, only a couple of minutes
