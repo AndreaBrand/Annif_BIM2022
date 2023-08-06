@@ -1,4 +1,4 @@
-Following the instructions, the first step was to add the necessary information to the projects.cfg file:
+Following the instructions https://github.com/NatLibFi/Annif-tutorial, the first step was to add the necessary information to the projects.cfg file:
 ```
 [thwildau-tfidf-de]
 name=THWILDAU TFIDF project
