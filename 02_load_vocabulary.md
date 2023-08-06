@@ -1,4 +1,4 @@
-Since the project gaol is to add RVK notation to master theses of TH Wildau one team member extracet files from TH Wildau repository (see: https://github.com/mensslen/Annif-Project)
+Since the project goal is to add RVK notation to master theses of TH Wildau one team member extracet files from TH Wildau repository (see: https://github.com/mensslen/Annif-Project)
 
 Be carefull to follow the recommendations of https://github.com/NatLibFi/Annif/wiki/Subject-vocabulary-formats. Be sure that the TSV file only contains 2 columns.
 Encoding seem not to matter. UTF-8 works as well as Latin-3
