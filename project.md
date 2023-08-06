@@ -14,8 +14,10 @@ vaocab is the vocabulary ID
 projects.cfg can hold more than one project
 
 In order to verify that annif can read project information start annif and call annif list projects
-
+```
 source annif-venv/bin/activate
-
+```
+```
 annif list-projects
+```
 images/thwildauprojects.png
