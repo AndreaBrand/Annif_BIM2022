@@ -28,6 +28,7 @@ Attention:
 
 #) don't forget to put options --langage in the string otherwise you will get error message
 
-#) if you run into error "getötet" or "killed" depending on OS language settings check TSV file if there are format errors in the file
+#) if you run into error "getötet" or "killed" depending on OS language settings, check TSV file if there are format errors in the file
 see: images/load_vocabulary.png
+
 Depending on TSV file load-vocab should not take to long, only a couple of minutes
