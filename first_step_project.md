@@ -8,7 +8,9 @@ vocab=rvkthwildau
 analyzer=snowball(german)
 ```
 thwildau-tfidf-de is project ID
+
 tfidf is the algorithm applied, in this case it is more or less the "Hello world" version
+
 vaocab is the vocabulary ID
 
 projects.cfg can hold more than one project
