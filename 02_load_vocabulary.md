@@ -1,7 +1,8 @@
 Since the project goal is to add RVK notation to master theses of TH Wildau one team member extracet files from TH Wildau repository (see: https://github.com/mensslen/Annif-Project)
 
 Be carefull to follow the recommendations of https://github.com/NatLibFi/Annif/wiki/Subject-vocabulary-formats. Be sure that the TSV file only contains 2 columns.
-Encoding seem not to matter. UTF-8 works as well as Latin-3
+Encoding seem not to matter. UTF-8 works as well as Latin-3.
+
 Take a closer look on hidden character in the TSV file or faulty clean up when extracting classification form web sources. (I experienced problems with quotes. If you get stuck open TSV file in terminal with cat and check wheter there are still characters you already removed!)
 
 TSV File should look like this:
