@@ -28,7 +28,8 @@ Attention:
 
 #) don't forget to put options --langage in the string otherwise you will get error message
 
-#) if you run into error "getötet" or "killed" depending on OS language settings, data directory and take a closer look into date /vocab directory and inspec subject.csv and subject.ttl file 
+#) if you run into error "getötet" or "killed" check data folder. The folder "date / vocabs" gets automatically populated with two files; first subjects.csv. This takes only a couple of seconds. subjects.ttl takes longer an might be des origin of process aportion. In this case check if files contain same data.
+
 see: images/load_vocabulary.png
 
 Depending on TSV file load-vocab should not take to long, only a couple of minutes
