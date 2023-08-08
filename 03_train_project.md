@@ -4,3 +4,7 @@ To start training insert following comand:
 ```
 annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
 ```
+1) first call annif train
+2) then call project ID as defined in projects.cfg
+3) then insert path to folder of training data
+
