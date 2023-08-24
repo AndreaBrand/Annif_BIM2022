@@ -7,5 +7,15 @@ annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
 1) first call annif train
 2) then call project ID as defined in projects.cfg
 3) then insert path to folder of training data
+4) training takes just couple of seconds since *tsv file is very small resulting in
+5) -transforming subject corpus
+   -creating vectorizer
+   -creating similarity index
+   Hint: controll if all three processes are comlpete. due to unknown reasons sometimes the creation of similarity index is not completed
+6) test with command
+```
+echo "Technologie" | annif suggest thwildau-tfidf-de
+```
+leads to error: KeyError 'de' 
 
-see images: images/train_annif.png
+see images: images/train_annif.png, error_suggest.png
