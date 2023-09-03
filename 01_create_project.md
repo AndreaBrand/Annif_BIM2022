@@ -22,4 +22,5 @@ source annif-venv/bin/activate
 ```
 annif list-projects
 ```
+![Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/thwildauprojects.png)
 images/thwildauprojects.png
