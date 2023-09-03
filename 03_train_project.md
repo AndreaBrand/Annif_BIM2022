@@ -8,15 +8,15 @@ annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
 2) then call project ID as defined in projects.cfg
 3) then insert path to folder of training data
 4) training takes just couple of seconds since *tsv file is very small resulting in
-5) -transforming subject corpus
-   -creating vectorizer
-   -creating similarity index
+5) -transforming subject corpus <br>
+   -creating vectorizer<br>
+   -creating similarity index<br>
    Hint: controll if all three processes are comlpete. due to unknown reasons sometimes the creation of similarity index is not completed
 6) test with command
 ```
 echo "Technologie" | annif suggest thwildau-tfidf-de
 ```
-leads to error: KeyError 'de' 
+![Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/echo_test.png)
 
 see images: images/train_annif.png, error_suggest.png
 7) Controlled language settings in projects.cfg and fix KeyError 'de' by adjusting language termin to "de" instead of "german".
