@@ -19,3 +19,15 @@ echo "Technologie" | annif suggest thwildau-tfidf-de
 leads to error: KeyError 'de' 
 
 see images: images/train_annif.png, error_suggest.png
+7) Controlled language settings in projects.cfg and fix KeyError 'de' by adjusting language termin to "de" instead of "german".
+
+```
+[thwildau-tfidf-de]
+name=THWILDAU TFIDF project
+language=de
+backend=tfidf
+vocab=rvkthwildau
+analyzer=snowball(german)
+```
+
+analyzer=snowball(german)
