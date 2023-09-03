@@ -20,7 +20,7 @@ th-wildau:AA10600	Europa
 ```
 Then load vocabulary 
 ```
-annif load-vocab --language german rvkthwildau data-sets/THWildau/rvk_test2023v3.tsv
+annif load-vocab --language de rvkthwildau data-sets/THWildau/rvk_test2023v3.tsv
 ```
 rvkthwildau is the vocabulary ID; data-sets/THWildau/rvk_test2023v3.tsv is the path
 
