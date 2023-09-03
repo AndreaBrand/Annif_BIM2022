@@ -32,4 +32,9 @@ Attention:
 ![Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/load_vocabulary.png)
 see: images/load_vocabulary.png
 
+I then loades the complete RVK list:
+```
+annif load-vocab --language de rvkthwildau data-sets/THWildau/rvk_test20230807.tsv
+```
+
 Depending on TSV file load-vocab should not take to long, only a couple of minutes
