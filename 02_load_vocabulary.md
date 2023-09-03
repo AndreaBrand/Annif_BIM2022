@@ -29,7 +29,7 @@ Attention:
 #) don't forget to put options --langage in the string otherwise you will get error message
 
 #) if you run into error "getötet" or "killed" check data folder. The folder "date / vocabs" gets automatically populated with two files; first subjects.csv. This takes only a couple of seconds. subjects.ttl takes longer an might be des origin of process aportion. In this case check if files contain same data.
-![[Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/load_vocabulary.png)
+![Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/load_vocabulary.png)
 see: images/load_vocabulary.png
 
 Depending on TSV file load-vocab should not take to long, only a couple of minutes
