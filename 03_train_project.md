@@ -12,7 +12,7 @@ annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
    -creating vectorizer<br>
    -creating similarity index<br>
    Hint: controll if all three processes are comlpete. due to unknown reasons sometimes the creation of similarity index is not completed
-7) test with command
+7) test with command:
 ```
 echo "Technologie" | annif suggest thwildau-tfidf-de
 ```
