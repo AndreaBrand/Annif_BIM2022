@@ -8,8 +8,7 @@ annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
 2) then call project ID as defined in projects.cfg
 3) then insert path to folder of training data
 4) training takes just couple of seconds since *tsv file is very small resulting in
-5) -transforming
-   -subject corpus <br>
+5) -transforming subject corpus <br>
    -creating vectorizer<br>
    -creating similarity index<br>
    Hint: controll if all three processes are comlpete. due to unknown reasons sometimes the creation of similarity index is not completed
