@@ -9,4 +9,4 @@ Annif will start and run until you stop it by pressing Ctrl/STRG-C.
 Then open prefered browser and call URL  localhost:5000/ or http://127.0.0.1:5000/
 
 Select specific project an insert phrase or test. Then press "Get suggestion" button:
-![ALT](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/webUI_test.png)
+![ALT](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/webUI_test1.png)
