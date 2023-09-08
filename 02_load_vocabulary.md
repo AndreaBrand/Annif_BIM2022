@@ -1,9 +1,9 @@
-Since the project goal is to add RVK notation to master theses of TH Wildau one team member extraced files from TH Wildau repository (see: https://github.com/mensslen/Annif-Project)
+Since the project goal is to add RVK notation to master theses of TH Wildau one team member extracted files from the TH Wildau repository (see: https://github.com/mensslen/Annif-Project)
 
-Be carefull to follow the recommendations of https://github.com/NatLibFi/Annif/wiki/Subject-vocabulary-formats. Be sure that the TSV file for the vocab only contains 2 columns.
-Encoding seem not to matter. UTF-8 works as well as Latin-3.
+Be careful to follow the recommendations of https://github.com/NatLibFi/Annif/wiki/Subject-vocabulary-formats. Be sure that the TSV file for the vocab only contains 2 columns.
+Encoding seems not to matter. UTF-8 works as well as Latin-3.
 
-Take a closer look on hidden character in the TSV file or faulty clean up when extracting classification form web sources. (I experienced problems with quotes. If you get stuck open TSV file in terminal with cat and check wheter there are still characters you already removed!)
+Take a closer look at the hidden character in the TSV file or faulty cleanup when extracting classification from web sources. (I experienced problems with quotes. If you get stuck open the TSV file in the terminal with cat and check whether there are still characters you already removed!)
 
 TSV File should look like this:
 ```
@@ -37,4 +37,4 @@ I then loaded the complete RVK list:
 annif load-vocab --language de rvkthwildau data-sets/THWildau/rvk_test20230807.tsv
 ```
 
-Depending on TSV file load-vocab should not take to long, only a couple of minutes
+Depending on the size of TSV file load-vocab should not take to long, only a couple of minutes
