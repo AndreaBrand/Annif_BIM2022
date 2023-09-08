@@ -11,7 +11,7 @@ annif train thwildau-tfidf-de data-sets/THWildau/thwildau350.tsv
 5) -transforming subject corpus <br>
    -creating vectorizer<br>
    -creating similarity index<br>
-   Hint: controll if all three processes are comlpete. due to unknown reasons sometimes the creation of similarity index is not completed
+   Hint: control if all three processes are complete. due to unknown reasons sometimes the creation of a similarity index is not completed
 7) test with command:
 ```
 echo "Technologie" | annif suggest thwildau-tfidf-de
