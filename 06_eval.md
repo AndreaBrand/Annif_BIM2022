@@ -5,5 +5,5 @@ Next run command
 ```
 annif eval thwildau-tfidf-de data-sets/THWildau/docs/test/
 ```
-Results in terminal look like this:
+Results in terminal look like this (please keep in mind that our training/testing materials are incomplete):
 ![Alt](https://github.com/AndreaBrand/Annif_BIM2022/blob/main/images/eval_result.png)
